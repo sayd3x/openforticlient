@@ -32,4 +32,4 @@ To run it on mac:
 docker run -it --rm --env-file ./env --privileged openforticlient:latest
 ```
 
-Due to some docker limitations for mac it's not possible to the container through your host network, only port mapping works. As a workaround you may try to use a dedicated docker-machine based on virtualbox driver.
+Due to some docker limitations for mac it's not possible to reach out the container through your host network, only port mapping works. As a workaround you may try to use a dedicated docker-machine based on virtualbox driver.
